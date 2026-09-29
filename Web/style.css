@@ -1,0 +1,22 @@
+.heading{
+    color:red;text-align:center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color:black ;
+}
+
+ .div1{
+    width:500px;
+    
+    text-align: center;
+    background-color: rgb(192, 226, 43);
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .message{
+
+    background-color: aquamarine;
+    border:10px solid gray;
+    width:500px;
+    margin: 200px 400px 500px 100px;
+    text-align: center;
+    padding: 200px;
+ }
+ 
