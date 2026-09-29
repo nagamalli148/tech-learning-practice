@@ -1,0 +1,26 @@
+Hello Guys
+
+const express = require('express')
+const app=express();
+
+app.use(express.json()) 
+
+let users =[
+    {
+        id:1,name:"mallika"
+    },
+    {
+        id:2,name:"malli"
+    }
+];
+
+app.get("/users",(req,res)=>{
+    res.status(200).json(users); 
+}) 
+
+app.get("/clinicians", (req,res)=>{
+
+const {discipline} = req.query; 
+
+
+})
